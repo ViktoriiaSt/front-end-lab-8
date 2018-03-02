@@ -1,0 +1,43 @@
+/* Your styles goes here */
+body{
+	font-family: serif;
+	background: #222124;
+}
+h1{
+    color:#a09e86;
+}
+a{
+	text-decoration: none;
+	color:#d6d1b6;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+    vertical-align: top;
+	transition: all 0.3s;
+}
+a:hover{
+	background: #303030;
+	transition: all 0.3s ;
+}
+img.preview, div.tanks-template{
+	width: 200px;
+}
+img.preview{
+	display: block;
+}
+div.tank-model-preview{
+	padding: 10px 5px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+img.country{
+	width: 20px;
+}
+span.level{
+	color:#879385;
+}
+span{
+	margin-left: 5px;
+	font-size: 1.2em;
+}
